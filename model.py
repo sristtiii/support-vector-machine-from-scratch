@@ -53,6 +53,7 @@ def predict_from_scores(scores):
 def hinge_loss_example(score, y):
     # TODO: return the hinge loss for a single example with raw score `score` and label y in {-1, +1}.
     loss = max(0.0,1.0-score * y)
+    # sfg
     #hingelossssss
     return loss
 
